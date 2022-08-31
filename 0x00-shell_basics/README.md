@@ -1,1 +1,1 @@
-copy all html files from current directory to parent directory
+move files with upper case characters to /tmp/u
