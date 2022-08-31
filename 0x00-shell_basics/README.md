@@ -1,1 +1,1 @@
-script that list all files in current directory and parent directory
+create a symbolic link /bin/ls to _ls_
