@@ -1,1 +1,1 @@
-create directories
+Dis project is mandatory for Alx student
