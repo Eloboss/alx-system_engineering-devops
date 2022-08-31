@@ -1,1 +1,1 @@
-Dis project is mandatory for Alx student
+This project is mandatory for ALX student
