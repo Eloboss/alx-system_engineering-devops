@@ -1,1 +1,1 @@
-Delete the directory my_first_directory that is in /tmp
+Delete the file betty that is in /tmp/my_first_directory
