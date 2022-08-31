@@ -1,1 +1,1 @@
-remove all finds that end in ~
+delete all files that end with ~ character
