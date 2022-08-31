@@ -1,1 +1,1 @@
-script that list all files in the current directory and in parent directory
+list files in long format with user name and group ID and hidden characters
