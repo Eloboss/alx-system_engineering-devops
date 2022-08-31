@@ -1,1 +1,1 @@
-delete all files that end with ~ character
+create directories
