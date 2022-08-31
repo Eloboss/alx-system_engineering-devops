@@ -1,1 +1,1 @@
-Delete the file betty that is in /tmp/my_first_directory
+Move the file betty from /tmp/ to /tmp/my_first_directory
