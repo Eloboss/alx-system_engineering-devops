@@ -1,1 +1,1 @@
-a script that prints the type of the file named iam afile in /tmp
+script that list all files in the current directory and in parent directort
