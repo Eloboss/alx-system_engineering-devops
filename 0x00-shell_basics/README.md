@@ -1,1 +1,1 @@
-script that creates a directory named my_first_directoty in /tmp/
+a script that prints the type of the file named iam afile in /tmp
