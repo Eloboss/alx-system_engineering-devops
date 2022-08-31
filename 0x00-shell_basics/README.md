@@ -1,1 +1,1 @@
-This project is mandatory for ALX student
+This project is mandatory for ALX Students
