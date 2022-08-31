@@ -1,1 +1,1 @@
-list files in long format with user name and group ID and hidden characters
+script that lists all files in the current directory and working directory
