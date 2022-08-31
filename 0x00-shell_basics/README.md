@@ -1,1 +1,1 @@
-create a symbolic link to /bin/ls named _ls_
+copy all html files from current directory to parent directory
