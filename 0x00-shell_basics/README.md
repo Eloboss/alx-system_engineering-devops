@@ -1,1 +1,1 @@
-move files with upper case characters to /tmp/u
+remove all finds that end in ~
