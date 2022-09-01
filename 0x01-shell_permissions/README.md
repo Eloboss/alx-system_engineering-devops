@@ -1,1 +1,1 @@
-print effective user id
+print user id
