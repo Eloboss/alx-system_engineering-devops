@@ -1,1 +1,1 @@
-This project is mandatory for ALX Students
+switch to a new user betty
