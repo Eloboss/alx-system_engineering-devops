@@ -1,1 +1,1 @@
-switch current user
+print effective user id
