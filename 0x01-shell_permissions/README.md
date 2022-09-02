@@ -1,1 +1,1 @@
-permission to all subdirectories
+create a new directory mydir
