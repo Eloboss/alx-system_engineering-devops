@@ -1,1 +1,1 @@
-create a group
+create multiple permissions
