@@ -1,1 +1,1 @@
-print user id
+check group
