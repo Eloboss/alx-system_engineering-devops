@@ -1,1 +1,1 @@
-everybody
+restricted permissions
