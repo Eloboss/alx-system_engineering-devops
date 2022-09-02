@@ -1,1 +1,1 @@
-print empty file
+create empty file
