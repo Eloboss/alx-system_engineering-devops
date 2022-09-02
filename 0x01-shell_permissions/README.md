@@ -1,1 +1,1 @@
-give ownership to hello
+script that prints all groups a user is part of
