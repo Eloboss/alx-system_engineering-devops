@@ -1,1 +1,1 @@
-change owner
+print empty file
