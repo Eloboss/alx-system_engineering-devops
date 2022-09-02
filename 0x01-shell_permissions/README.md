@@ -1,1 +1,1 @@
-restricted permissions
+reference permissions
