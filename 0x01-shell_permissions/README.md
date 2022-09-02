@@ -1,1 +1,1 @@
-create a new permission
+create new permissions
