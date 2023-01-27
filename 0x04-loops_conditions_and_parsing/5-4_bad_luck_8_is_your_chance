@@ -18,3 +18,4 @@ do
     echo "Best School"
   fi
   (( count++ ))
+done
