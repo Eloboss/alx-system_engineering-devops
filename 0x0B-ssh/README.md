@@ -1,1 +1,1 @@
-ssh key gen
+ssh key
