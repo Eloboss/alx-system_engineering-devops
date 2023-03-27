@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Displays "Best School" 10 times usin a while loop.
+# Displays "Best School" 10 times usin a while loops.
 
 count=0
 
