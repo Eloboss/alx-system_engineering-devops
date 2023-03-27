@@ -1,0 +1,6 @@
+Host Eloboss7
+    HostName 21cb5b348e78.87eb35c5.alx-cod.online
+    User 21cb5b348e78
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
+    PubkeyAuthentication yes
