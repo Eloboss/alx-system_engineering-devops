@@ -7,4 +7,4 @@ sudo apt-get install ngnix -y
 
 echo 'Hello World!' > /var/www/html/index.html
 
-sudo service ngnix restart
+service ngnix restart
