@@ -14,7 +14,7 @@ if [[ -z $ELO ]]; then
 fi
 
 # Create a first index.html page
-echo "Hello World!" > /var/www/html/index.html
+echo "Hello World!" | sudo tee -a  /var/www/html/index.html
 
 # Add to the nginx configuration file a redirection
 ELO=$(grep "redirect_me" /etc/nginx/sites-available/default)
@@ -25,9 +25,9 @@ fi
 
 # Add to the nginx configuration file a error page 404
 ELO=$(grep "error_page 404" /etc/nginx/sites-available/default)
-ERRORPAGE="\\\n\terror_page 404 /custom_404.html;\n"
+ERRORPAGE="\\\n\terror_page 404 /404.html;\n"
 if [[ -z $ELO ]]; then
-    echo "Ceci n'est pas une page" > /var/www/html/custom_404.html
+    echo "Ceci n'est pas une page" | sudo tee -a  /var/www/html/404.html
     sed -i "40i $ERRORPAGE" /etc/nginx/sites-available/default
 fi
 
