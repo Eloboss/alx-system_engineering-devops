@@ -3,12 +3,13 @@
 
 # Install HAproxy on a server
 sudo apt-get -y update
-sudo  apt-get -y install haproxy
+sudo apt-get -y install haproxy
 
+echo 'ENABLE=1' | sudo tee -a /etc/default/hydroxy
 # Configure haproxy configuration file  using a roundrobin algorithm
 echo '
 frontend webelo.tech
-        bind 0:80
+        bind *:80
         default_backend web_servers
 backend web_servers
         balance roundrobin
