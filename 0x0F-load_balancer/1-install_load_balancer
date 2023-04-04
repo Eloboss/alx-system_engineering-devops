@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# configures a new HAproxy as a load balancer
+
+# Install HAproxy on a server
+sudo apt-get -y update
+sudo  apt-get -y install haproxy
+
+# Configure haproxy configuration file  using a roundrobin algorithm
+echo '
+frontend webelo.tech
+        bind 0:80
+        default_backend web_servers
+backend web_servers
+        balance roundrobin
+        server 73256-web-01 54.162.77.191:80
+        server 73256-web-02 100.27.4.111:80
+' >> /etc/haproxy/haproxy.cfg
+
+# Restart HAproxy service
+service haproxy restart
