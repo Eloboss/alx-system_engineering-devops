@@ -38,8 +38,8 @@ defaults
 
 
 frontend webelo.tech
-        bind 0:80
-        bind 0:443 ssl crt /etc/ssl/private/webelo.tech.pem
+        bind *:80
+        bind *:443 ssl crt /etc/ssl/private/webelo.tech.pem
         http-request redirect scheme https code 301 unless { ssl_fc }
         option forwardfor
         default_backend web_servers
