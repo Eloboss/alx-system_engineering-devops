@@ -46,5 +46,5 @@ frontend webelo.tech
 
 backend web_servers
         balance roundrobin
-        server 64820-web-01 54.162.77.191:80 check
+        server 73256-web-01 54.162.77.191:80 check
         server 73256-web-02 100.27.4.111:80 check
